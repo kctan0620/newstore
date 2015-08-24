@@ -1,0 +1,29 @@
+2015-08-12 12:03:05 - PHP Warning:  fopen(localhost/newopencart/upload/image/catalog/demo/test.jpg): failed to open stream: No such file or directory in C:\wamp\www\newopencart\upload\catalog\controller\tool\migrate.php on line 7
+2015-08-12 12:03:05 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\wamp\www\newopencart\upload\catalog\controller\tool\migrate.php on line 8
+2015-08-12 12:03:05 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\wamp\www\newopencart\upload\catalog\controller\tool\migrate.php on line 9
+2015-08-13 15:46:03 - PHP Warning:  fopen(C:/wamp/www/newopencart/upload/system/cache/cache.store.1439477163): failed to open stream: Permission denied in C:\wamp\www\newopencart\upload\system\library\cache\file.php on line 49
+2015-08-13 15:46:03 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\wamp\www\newopencart\upload\system\library\cache\file.php on line 51
+2015-08-13 15:46:03 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\wamp\www\newopencart\upload\system\library\cache\file.php on line 53
+2015-08-13 15:46:03 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\wamp\www\newopencart\upload\system\library\cache\file.php on line 55
+2015-08-13 15:46:03 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\wamp\www\newopencart\upload\system\library\cache\file.php on line 57
+2015-08-13 15:46:03 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\wamp\www\newopencart\upload\system\library\cache\file.php on line 59
+2015-08-14 10:22:54 - PHP Notice:  Undefined variable: filter_data in C:\wamp\www\newopencart\upload\catalog\controller\tool\migrate.php on line 5
+2015-08-19 12:16:48 - PHP Notice:  Undefined variable: image_detail in C:\wamp\www\open\catalog\controller\tool\migrate.php on line 23
+2015-08-19 12:16:48 - PHP Notice:  Undefined variable: image_detail in C:\wamp\www\open\catalog\controller\tool\migrate.php on line 23
+2015-08-19 12:16:48 - PHP Notice:  Undefined variable: image_detail in C:\wamp\www\open\catalog\controller\tool\migrate.php on line 23
+2015-08-19 12:16:48 - PHP Notice:  Undefined variable: image_detail in C:\wamp\www\open\catalog\controller\tool\migrate.php on line 23
+2015-08-19 12:16:48 - PHP Notice:  Undefined variable: image_detail in C:\wamp\www\open\catalog\controller\tool\migrate.php on line 23
+2015-08-19 12:16:48 - PHP Notice:  Undefined variable: image_detail in C:\wamp\www\open\catalog\controller\tool\migrate.php on line 23
+2015-08-19 12:16:48 - PHP Notice:  Undefined variable: image_detail in C:\wamp\www\open\catalog\controller\tool\migrate.php on line 23
+2015-08-19 12:16:48 - PHP Notice:  Undefined variable: image_detail in C:\wamp\www\open\catalog\controller\tool\migrate.php on line 23
+2015-08-19 12:16:48 - PHP Notice:  Undefined variable: image_detail in C:\wamp\www\open\catalog\controller\tool\migrate.php on line 23
+2015-08-19 12:16:48 - PHP Notice:  Undefined variable: image_detail in C:\wamp\www\open\catalog\controller\tool\migrate.php on line 23
+2015-08-19 16:14:52 - PHP Notice:  Error: Table 'newopencart.oc_products' doesn't exist<br />Error No: 1146<br />SELECT p.product_id, pim.id_image  FROM oc_products p LEFT JOIN tmtlive.ps_image pim on p.product_id = pim.id_product  ORDER BY p.sort_order LIMIT 0,10 in C:\wamp\www\open\system\library\db\mysqli.php on line 41
+2015-08-19 16:14:52 - PHP Notice:  Trying to get property of non-object in C:\wamp\www\open\catalog\model\catalog\product.php on line 102
+2015-08-19 16:16:12 - PHP Notice:  Error: Table 'newopencart.oc_products' doesn't exist<br />Error No: 1146<br />SELECT p.product_id, pim.id_image  FROM oc_products p INNER JOIN tmtlive.ps_image pim on p.product_id = pim.id_product  ORDER BY p.sort_order LIMIT 0,10 in C:\wamp\www\open\system\library\db\mysqli.php on line 41
+2015-08-19 16:16:12 - PHP Notice:  Trying to get property of non-object in C:\wamp\www\open\catalog\model\catalog\product.php on line 102
+2015-08-21 2:11:14 - PHP Warning:  unlink(C:/wamp/www/open/system/cache/cache.currency.1440038476): No such file or directory in C:\wamp\www\open\system\library\cache\file.php on line 17
+2015-08-21 3:19:11 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' ORDER BY `parent_id` ASC' at line 1<br />Error No: 1064<br />SELECT * FROM `oc_category` '' ORDER BY `parent_id` ASC in C:\wamp\www\open\system\library\db\mysqli.php on line 41
+2015-08-21 3:19:11 - PHP Notice:  Trying to get property of non-object in C:\wamp\www\open\catalog\model\catalog\category.php on line 74
+2015-08-21 3:19:11 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\open\catalog\model\catalog\category.php on line 74
+2015-08-21 10:07:43 - PHP Notice:  Undefined variable: seperation_id in C:\wamp\www\open\catalog\controller\tool\migrate.php on line 26

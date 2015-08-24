@@ -1,0 +1,30 @@
+<?php
+class ControllerToolMigrate extends Controller {
+	public function index() {
+		$this->load->model('catalog/product');
+		/* $filter_data = array(
+				'filter_category_id' => 33				
+		); */		
+		$filter_data = array(
+				'start'              => 0,
+				'limit'              => 10
+		);							
+		$results = $this->model_catalog_product->getProductsImage($filter_data);		
+				
+		if ($results) {					
+			foreach ($results as $result) {																
+				$arr_split = str_split($result['id_image']);
+				echo var_dump($arr_split);								
+			}
+		}		
+		
+	}
+	
+	public function populateCategory()
+	{
+		$this->load->model('catalog/category');
+		$this->model_catalog_category->populateCategoryPath();
+		echo 'MIGRATE HAS DONE';
+	}
+}
+
